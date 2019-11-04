@@ -1,0 +1,56 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    font-size: 16px;
+}
+
+#printer {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #555;
+    color: black;
+    border-radius: 1rem;
+}
+
+.printer-item {
+    background: #ccc;
+    border-radius: 0.5rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.printer-title {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem;
+    border-bottom: 5px solid #c4c4c4;
+    padding-bottom: 0.5rem;
+}
+
+.printer-content {
+    padding: 0 0.5rem;
+}
+
+.printer-content-item {
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.printer-content-item-inner {
+    flex: 1;
+    word-break: break-word;
+
+}
+
+.printer-timer {
+    font-family: monospace, serif, cursive;
+    font-size: 0.5rem;
+    color: green;
+}
